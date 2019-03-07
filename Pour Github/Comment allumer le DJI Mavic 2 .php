@@ -1,0 +1,75 @@
+<?php header('Content-Type: text/html;charset=UTF-8') ?><!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Comment allumer le DJI Mavic 2 ?</title>
+		<meta name="description" content="Allumer un DJI Mavic 2 n'a rien de compliqué, mais nous vous donnons la procédure pour utiliser votre drone de façon sûre. Allumer la radiocommande, allumer le drone puis lancer l'application DJI GO 4 mais aussi de nombreuses autres étapes importantes. ">
+		<?php 
+		require 'head.php';
+		?>
+
+	</head>
+
+	<body>
+		<header>
+		<?php
+		require 'header.php';
+		?>
+		</header>
+		<section>
+			<article>
+			<h1>Comment allumer votre drone DJI Mavic 2 ?</h1>
+	<p>La mise en route du drone pour <a href="https://www.studiosport.fr/guides/mavic-2/recap/utilisation-mavic-2.php">utilisier un Mavic 2 Pro</a> et Zoom est très facile, il suffit de suivre les étapes décrites :</p>
+		<h2><strong>Allumage de la radiocommande</strong> :</h2>
+			<p><li>Dépliez les pinces prévues pour tenir votre smartphone. Elles sont situées sur le bas de la radiocommande.</li>
+			<li>Dépliez délicatement les antennes de la radiocommande pour les orienter de façon à ce qu'elles soient parallèles.</li>
+			<li>Placez les sticks de la radiocommande en place (ils sont rangés sous la radiocommande au niveau des pinces).</li>
+			<li>Installez votre smartphone dans les pinces et connectez l'embout correspondant sur le côté gauche. Assurez-vous que l'appareil est correctement maintenu.</li>
+			<li>Pressez le bouton de mise en tension situé en haut à gauche de la radiocommande de la façon suivante : une pression courte puis une pression plus longue. Un bip caractéristique vous confirmera l'allumage de la radiocommande.</li></p>
+		<h2><strong>Allumage du drone</strong>: </h2>
+			<p><li>Assurez-vous que la batterie du drone est bien rechargée.</li>
+			<li>Insérez la batterie du drone dans le logement prévu à cet effet. Lorsque celle-ci est correctement insérée, vous entendrez un "clic".</li>
+			<li>Dépliez délicatement les bras du drone et le poser sur une surface plane et dégagée.</li>
+			<li>Retirez délicatement la bulle de protection de la caméra.</li>
+			<li>Pressez le bouton de mise en tension de la batterie de la façon suivante : une pression courte puis une pression plus longue. Vous saurez que le drone est en route lorsque les 4 LEDs circulaires se seront allumées et que le drone aura émis un bip caractéristique.</li></p>
+		<h2><strong>Lancement de DJI GO4</strong>: </h2>
+			<p><li>L'application DJI GO4 devrait se lancer automatiquement sur votre smartphone. Si ce n'est pas le cas, ouvrez l'application correspondante.</li>
+			<li>Vérifiez que l'appairage entre le drone et la radiocommande est bien effectué. Si ce n'est pas le cas, <a href="https://www.studiosport.fr/guides/mavic-2/recap/appairage-mavic-2.php">effectuer l'appairage du Mavic 2</a></li>
+			<li>Appuyez sur "Go Fly"</p>
+		<h2><strong>Les vérifications importantes</strong>: </h2>
+			<p>Avant de faire voler votre DJI Mavic 2 Pro ou Zoom, il convient de faire quelques vérifications <strong>importantes</strong> :
+			<li>S'assurer que vous volez dans un endroit respectant les règles d'usage des drones civils.</li>
+			<li>Vérifiez que les batteries (drone et radiocommande) soit bien rechargées.</li>
+			<li>Vérifiez que l'application ne vous indique pas d'état d'erreur (dans ce cas, suivre les instructions pour résoudre l'erreur).</li>
+			<li>Vérifiez si des <a href="https://www.studiosport.fr/guides/mavic-2/recap/mise-a-jour-mavic-2.php">mises à jour</a> sont à effectuer. Si c'est le cas, nous vous recommandons de les effectuer.</li>
+			<li>Installez correctement les hélices.</li>
+			<li>Effectuez une calibration du compas et de l'IMU (recommandé pour chaque nouveau lieu de vol).</li>
+			<p>Une fois toutes ces vérifications effectuées, vous pouvez faire voler votre Mavic 2.</p>
+<br>
+<em>En savoir plus sur le DJI Mavic 2:</em>
+<ul>
+<li><a href="https://www.studiosport.fr/guides/mavic-2/recap/batterie-wh-avion-mavic-2.php">Combien de wH fait la batterie du DJI Mavic 2 ?</a></li>
+<li><a href="https://www.studiosport.fr/guides/mavic-2/recap/zoom-mavic-2.php">Comment zoomer avec le Mavic 2 ?</a></li>
+<li><a href="https://www.studiosport.fr/guides/mavic-2/recap/charger-mavic-2.php">Comment charger la radiocommande du Mavic 2 ?</a></li>
+<li><a href="https://www.studiosport.fr/guides/mavic-2/recap/applications-mavic-2.php">Quelles applications utiliser avec le Mavic 2 ?</a></li>
+			</article>	
+				
+
+				<aside>
+					<?php
+						require 'aside.php';
+					?>
+				</aside>	
+
+
+		</section>
+		<footer>
+					<?php
+						require 'footer.php';
+					?>	
+		</footer>	
+					<?php
+						require 'other.php';
+					?>	
+	</body>
+</html>
